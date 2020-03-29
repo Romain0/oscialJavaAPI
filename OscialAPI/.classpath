@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-11-openjdk-amd64">
+	<classpathentry kind="src" path="src" />
+	<classpathentry kind="con"
+		path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-11-openjdk-amd64">
 		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
+			<attribute name="module" value="true" />
+			<attribute name="limit-modules"
+				value="java.se,jdk.accessibility,jdk.httpserver,jdk.jartool,jdk.jconsole,jdk.jshell,jdk.jsobject,jdk.management.jfr,jdk.net,jdk.sctp,jdk.security.auth,jdk.security.jgss,jdk.unsupported.desktop,jdk.xml.dom,jdk.charsets,jdk.hotspot.agent,jdk.pack,jdk.rmic,jdk.jstatd,jdk.jcmd,jdk.crypto.cryptoki,jdk.naming.rmi,jdk.zipfs,jdk.editpad,java.smartcardio,jdk.jlink,jdk.scripting.nashorn.shell,jdk.internal.vm.compiler.management,jdk.aot,jdk.naming.dns,jdk.localedata" />
+			<attribute name="owner.project.facets" value="java" />
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="con"
+		path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver" />
+	<classpathentry kind="lib"
+		path="/home/romain/Documents/b3/Oscial/JavaApi/libraries/javax.persistence-api-2.2.jar" />
+	<classpathentry kind="output" path="build/classes" />
 </classpath>
